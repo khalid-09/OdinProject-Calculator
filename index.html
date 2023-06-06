@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>Calcualtor</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <div class="screen">
+                    <div class="upper-screen"></div>
+                    <div class="lower-screen">0</div>
+                </div>
+                <div class="buttons">
+                    <div class="row row-1">
+                        <div data-value="" class="column reset btns">AC</div>
+                        <div data-value="" class="column delete btns">DEL</div>
+                        <div
+                            data-value="%"
+                            data-operator="%"
+                            class="column percentage operators btns"
+                        >
+                            %
+                        </div>
+                        <div
+                            data-value="/"
+                            data-operator="/"
+                            class="column divide operators btns"
+                        >
+                            /
+                        </div>
+                    </div>
+                    <div class="row row-2">
+                        <div class="column seven numbers btns" data-value="7">
+                            7
+                        </div>
+                        <div data-value="8" class="column eight numbers btns">
+                            8
+                        </div>
+                        <div data-value="9" class="column nine numbers btns">
+                            9
+                        </div>
+                        <div
+                            data-value="*"
+                            data-operator="*"
+                            class="column multiply operators btns"
+                        >
+                            x
+                        </div>
+                    </div>
+                    <div class="row row-3">
+                        <div data-value="4" class="column four numbers btns">
+                            4
+                        </div>
+                        <div data-value="5" class="column five numbers btns">
+                            5
+                        </div>
+                        <div data-value="6" class="column six numbers btns">
+                            6
+                        </div>
+                        <div
+                            data-value="-"
+                            data-operator="-"
+                            class="column sub operators btns"
+                        >
+                            -
+                        </div>
+                    </div>
+                    <div class="row row-4">
+                        <div data-value="1" class="column one numbers btns">
+                            1
+                        </div>
+                        <div data-value="2" class="column two numbers btns">
+                            2
+                        </div>
+                        <div data-value="3" class="column three numbers btns">
+                            3
+                        </div>
+                        <div
+                            data-value="+"
+                            data-operator="+"
+                            class="column add operators btns"
+                        >
+                            +
+                        </div>
+                    </div>
+                    <div class="row row-5">
+                        <div data-value="00" class="column dbZero btns numbers">
+                            00
+                        </div>
+                        <div data-value="0" class="column zero numbers btns">
+                            0
+                        </div>
+                        <button data-value="." class="column point btns">
+                            .
+                        </button>
+                        <div
+                            data-value=""
+                            data-equalTo="="
+                            data-operator="="
+                            class="column equalTo btns"
+                        >
+                            =
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
